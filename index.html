@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Tabs</h2>
+    <p>Click on the buttons inside the tabbed menu:</p>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Tab1')">Tab1</button>
+      <button class="tablinks" onclick="openCity(event, 'Tab2')">Tab2</button>
+      <button class="tablinks" onclick="openCity(event, 'Tab3')">Tab3</button>
+    </div>
+
+    <div id="Tab1" class="tabcontent activetab">
+      <h3>Tab1</h3>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry.
+      </p>
+    </div>
+
+    <div id="Tab2" class="tabcontent">
+      <h3>Tab2</h3>
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s.
+      </p>
+    </div>
+
+    <div id="Tab3" class="tabcontent">
+      <h3>Tab3</h3>
+      <p>
+        when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book.
+      </p>
+    </div>
+    <script src="simpleTab.js"></script>
+  </body>
+</html>
