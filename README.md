@@ -6,7 +6,7 @@ Simple tab with HTML, css, javascript
 No actual visual changes will be performed, simpleTab.js just adds/removes CSS classes to the buttons and content elements. Making your tabs look like tabs is up to you. But don't worry, it's easy. Check the included CSS file.
 
 # Features
-<hr/>
+
 No dependencies, all vanilla JavaScript
 Supports mutliple tabsets per page
 Supports nested tabsets
