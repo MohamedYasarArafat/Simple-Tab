@@ -8,10 +8,16 @@ No actual visual changes will be performed, simpleTab.js just adds/removes CSS c
 # Features
 
 No dependencies, all vanilla JavaScript.
+
 Supports mutliple tabsets per page.
+
 Supports nested tabsets.
+
 Very minimal markup requirements (literally just one attribute).
+
 Does not set, impose or require any CSS rules.
+
 Performs only very little markup changes.
+
 Easy to use, flexible in how to use.
 
